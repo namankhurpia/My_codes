@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout"
+    android:background="@mipmap/back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/logo"
+        android:layout_marginTop="91dp"
+        android:src="@mipmap/logo" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/box"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="250dp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="265dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/profile_small"
+            android:transitionName="pic_transition"
+            android:src="@mipmap/profile_small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naman Khurpia"
+            android:layout_marginTop="265dp"
+            android:layout_marginLeft="135dp"
+            android:textStyle="bold"
+            android:id="@+id/nametext"
+            android:transitionName="name_transition"
+            android:textSize="16dp"
+
+            />
+
+        <TextView
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="285dp"
+            android:text="This is a design based UI tutorial for creating custom animation."
+            android:textSize="14dp"
+            android:transitionName="desc_transition"
+            android:id="@+id/desc_text"
+
+            />
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:text="Click to view profile"
+        android:textColor="#929292"
+        android:id="@+id/clicktoview"
+        android:onClick="click"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+
+
+</RelativeLayout>
