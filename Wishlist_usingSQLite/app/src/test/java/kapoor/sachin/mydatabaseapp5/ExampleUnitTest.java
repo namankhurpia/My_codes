@@ -1,4 +1,4 @@
-package com.namankhurpia.wishlist_usingsqlite;
+package kapoor.sachin.mydatabaseapp5;
 
 import org.junit.Test;
 
