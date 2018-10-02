@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "217064963637",
+    "firebase_url": "https://attendance-907f1.firebaseio.com",
+    "project_id": "attendance-907f1",
+    "storage_bucket": "attendance-907f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217064963637:android:2478b424a3b1381c",
+        "android_client_info": {
+          "package_name": "com.namankhurpia.attendancescaneveryon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217064963637-946ud3dp23ju3ni3f9f4u3r3q05mvcv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXWPs4FNr8r2UQm9mZ8xfS7EgMXBHz4pU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
